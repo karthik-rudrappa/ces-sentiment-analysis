@@ -84,7 +84,7 @@ CES-Sentiment-Analysis/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ces-sentiment-analysis.git
+   git clone https://github.com/karthik-rudrappa/ces-sentiment-analysis.git
    cd ces-sentiment-analysis
    ```
 
@@ -325,7 +325,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 **[Karthik Rudrappa]**  
 - LinkedIn: [Karthik Rudrappa](https://linkedin.com/in/karthik-n-rudrappa)  
-- GitHub: [Your GitHub Profile](https://github.com/karthik-rudrappa)  
+- GitHub: [Karthik Rudrappa](https://github.com/karthik-rudrappa)  
 - Email: krk767@gmail.com
 
 ---
