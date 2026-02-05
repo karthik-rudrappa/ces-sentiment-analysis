@@ -1,0 +1,128 @@
+# ============================================================
+# CES Sentiment Analysis — .gitignore
+# ============================================================
+# Prevents sensitive data, outputs, and system files from 
+# being committed to GitHub
+# ============================================================
+
+# ── SENSITIVE DATA (CRITICAL — DO NOT COMMIT)
+data_ces.xlsx
+*.xlsx
+*.xls
+*.csv
+
+# Any data files in project root or data folders
+/data/
+/raw_data/
+/datasets/
+
+# ── GENERATED OUTPUTS (charts, results)
+charts/
+charts_v2/
+charts_installation/
+charts_loyalty/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Generated Excel results
+ces_sentiment_results*.xlsx
+ces_installation_results.xlsx
+ces_loyalty_results.xlsx
+
+# ── PYTHON
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# ── IDE / EDITOR
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ── OS
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ── LOGS
+*.log
+
+# ── TEMPORARY FILES
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ── OTHER
+.env
+.env.local
+secrets.txt
+config_local.py

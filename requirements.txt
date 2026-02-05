@@ -1,0 +1,10 @@
+pandas
+openpyxl
+vaderSentiment
+textblob
+nltk
+matplotlib
+seaborn
+numpy
+wordcloud
+pillow
