@@ -21,6 +21,7 @@ charts/
 charts_v2/
 charts_installation/
 charts_loyalty/
+charts_bell_curve/
 *.png
 *.jpg
 *.jpeg
@@ -30,6 +31,19 @@ charts_loyalty/
 ces_sentiment_results*.xlsx
 ces_installation_results.xlsx
 ces_loyalty_results.xlsx
+
+# ── POWERPOINT FILES & GENERATION SCRIPTS
+*.pptx
+*.ppt
+generate_presentations.js
+generate_bell_curve_presentation.js
+package.json
+package-lock.json
+node_modules/
+
+# ── JSON FILES
+*.json
+!requirements.txt
 
 # ── PYTHON
 # Byte-compiled / optimized / DLL files
